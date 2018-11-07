@@ -1,15 +1,15 @@
 {
-  "name": "eui-component-template",
-  "version": "0.1.22",
-  "description": "EUI component template",
+  "name": "@keepyukap/rc-tpl-ie8",
+  "version": "0.1.0",
+  "description": "tpl for ie8",
   "main": "dist/index.js",
   "scripts": {
-    "start": "eui server",
-    "dev": "eui server",
-    "build": "eui build",
-    "test": "eui test",
+    "start": "ky-ie8 server",
+    "dev": "ky-ie8 server",
+    "build": "ky-ie8 build",
+    "test": "ky-ie8 test",
     "commit": "npx git-cz",
-    "coverage": "eui test --coverage",
+    "coverage": "ky-ie8 test --coverage",
     "lint": "eslint --fix src/*",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "precommit": "lint-staged",
@@ -18,16 +18,16 @@
     "postversion": "git push && git push --tags",
     "prepublishOnly": "npm run build"
   },
-  "author": "mistong eui team",
+  "author": "yukap",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MST-EUI/eui-component-tpl.git"
+    "url": "https://github.com/keep-yukap/rc-tpl-ie8.git"
   },
   "bugs": {
-    "url": "https://github.com/MST-EUI/eui-component-tpl/issues"
+    "url": "https://github.com/keep-yukap/rc-tpl-ie8/issues"
   },
-  "homepage": "https://github.com/MST-EUI/eui-component-tpl",
+  "homepage": "https://github.com/keep-yukap/rc-tpl-ie8",
   "keywords": [
     "react",
     "react-component",

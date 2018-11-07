@@ -1,6 +1,6 @@
 {
   "name": "@keepyukap/rc-tpl-ie8",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "tpl for ie8",
   "main": "dist/index.js",
   "scripts": {
